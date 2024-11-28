@@ -1,7 +1,7 @@
 import cards
 class Deck:
     def __init__(self):
-        self.deck = cards.card_setup()
+        self.deck = cards.Card().card_setup()
     
-    def player_deal(self):
-        pass
+    def deal(self):
+        return self.deck.pop()
