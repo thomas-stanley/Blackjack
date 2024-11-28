@@ -1,5 +1,3 @@
-import deck
-import player
 import setup
 class Dealer:
     def __init__(self):

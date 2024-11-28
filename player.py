@@ -1,4 +1,3 @@
-import deck
 import setup
 class Player:
     def __init__(self):
