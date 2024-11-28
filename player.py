@@ -1,17 +1,12 @@
 import deck
+import setup
 class Player:
     def __init__(self):
-        self.hand = []
-    
-    def deal_hand(self):
-        self.hand.append(deck.Deck().deal())
-        self.hand.append(deck.Deck().deal())
-        return self.hand
+        self.hand = setup.Setup().deal_hand()
 
 
 def main():
     test_player = Player()
-    print(test_player.deal_hand())
     print(test_player.hand)
 
 
