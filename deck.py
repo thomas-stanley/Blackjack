@@ -13,6 +13,8 @@ class Deck:
 def main():
     test_deck = Deck()
     print(test_deck.deal())
+    test_deck.shuffle()
+    print(test_deck.deal())
 
 
 if __name__ == "__main__":

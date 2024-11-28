@@ -12,7 +12,6 @@ class Setup:
 def main():
     test_setup = Setup()
     print(test_setup.deal_hand())
-    print(test_setup.hand)
 
 
 if __name__ == "__main__":

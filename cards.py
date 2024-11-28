@@ -20,6 +20,7 @@ def card_setup(num_decks: int = 6) -> list:
 def main():
     cards = card_setup()
     print(cards)
+    print(len(cards))
 
 if __name__ == "__main__":
     main()

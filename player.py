@@ -29,7 +29,7 @@ class Player:
                 print("Invalid choice. Please try again.")
     
     def hit(self):
-        print("Hit executed")
+        self.hand.append(setup.Setup().deck.deal())
 
     def stand(self):
         print("Stand executed")
