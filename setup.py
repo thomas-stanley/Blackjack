@@ -7,6 +7,7 @@ class Setup:
     def deal_hand(self) -> list:
         self.hand = [self.deck.deal() for i in range(2)]
         return self.hand
+    
 
 
 def main():
